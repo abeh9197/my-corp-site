@@ -1,7 +1,7 @@
 import React from 'react';
 import './globals.css';
 import { Inter } from 'next/font/google';
-import SideMenu from './components/SideMenu';
+import SideMenu from '@/app/components/SideMenu';
 
 const inter = Inter({ subsets: ['latin'] });
 
