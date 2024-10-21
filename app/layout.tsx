@@ -18,10 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {/* 星の背景を追加 */}
-        <div id="stars"></div>
-        <div id="stars2"></div>
-        <div id="stars3"></div>
+        {/* 海のアニメーション背景 */}
+        <div id="ocean"></div>
+        <div id="light"></div>
 
         <div className="flex">
           {/* メインコンテンツ */}
